@@ -34,4 +34,57 @@ html {
 body {
   height: 100vh;
   width: 100vw;
+  display: flex;
+}
+
+/* sidebar */
+.sidebar {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  padding: 1rem;
+}
+
+nav,
+.item {
+  display: flex;
+  gap: 1.2rem;
+}
+
+nav {
+  flex-direction: column;
+}
+
+.item {
+  align-items: center;
+}
+
+.item-margin-bottom {
+  margin-bottom: 2rem;
+}
+
+.item > img {
+  filter: invert(1);
+}
+
+.item-h1 > img {
+  transform: scale(1.5);
+}
+
+.item > p,
+.item > h1 {
+  margin-block: 0;
+  font-weight: bold;
+  display: none;
+}
+
+.item > h1 {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 1080px) {
+  .item > p,
+  .item > h1 {
+    display: block;
+    padding-right: 4rem;
+  }
 }
