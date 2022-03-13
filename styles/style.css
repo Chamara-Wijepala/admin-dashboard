@@ -31,10 +31,21 @@ html {
   box-sizing: inherit;
 }
 
+p,
+h1 {
+  margin: 0;
+}
+
 body {
   height: 100vh;
   width: 100vw;
   display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 /* sidebar */
@@ -72,7 +83,6 @@ nav {
 
 .item > p,
 .item > h1 {
-  margin-block: 0;
   font-weight: bold;
   display: none;
 }
@@ -90,4 +100,61 @@ nav {
   .item > h1 {
     display: block;
   }
+}
+
+/* header */
+header {
+  display: grid;
+  grid-template: repeat(2, auto) / 2fr 1fr;
+}
+
+.search,
+.profile,
+.welcome-user,
+.buttons {
+  display: grid;
+  padding: 1rem;
+}
+
+.header-grid-item {
+  align-self: center;
+}
+
+.profile-picture {
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+  background-image: url('../assets/images/avatar-two.png');
+}
+
+.large-profile-picture {
+  height: 80px;
+  width: 80px;
+}
+
+/* search */
+.search {
+  grid-template-columns: max-content auto;
+  gap: 1rem;
+}
+
+/* profile */
+.profile {
+  grid-template-columns: repeat(3, max-content);
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+/* welcome user */
+.welcome-user {
+  grid-template-columns: repeat(2, max-content);
+}
+
+/* buttons */
+header > .buttons {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.header-button {
+  justify-self: center;
 }
