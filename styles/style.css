@@ -1,4 +1,32 @@
+@font-face {
+  font-family: 'roboto';
+  src:
+    local('roboto'),
+    url('../assets/fonts/Roboto-LightItalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src:
+    local('roboto'),
+    url('../assets/fonts/Roboto-Regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src:
+    local('roboto'),
+    url('../assets/fonts/Roboto-Black-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
 :root {
+  font-family: 'roboto';
   --primary-color: white;
   --secondary-color: #e2e7f1;
   --tertiary-color: #1d87d8;
