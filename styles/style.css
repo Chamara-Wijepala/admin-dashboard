@@ -82,9 +82,12 @@ nav {
 }
 
 @media (min-width: 1080px) {
+  .sidebar {
+    padding-right: 4rem;
+  }
+
   .item > p,
   .item > h1 {
     display: block;
-    padding-right: 4rem;
   }
 }
