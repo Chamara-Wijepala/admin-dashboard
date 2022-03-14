@@ -114,7 +114,7 @@ header {
 .welcome-user,
 .button-container {
   display: grid;
-  padding: 1rem;
+  padding: .5rem;
 }
 
 .header-grid-item {
