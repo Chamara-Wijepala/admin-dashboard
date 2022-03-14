@@ -138,6 +138,20 @@ header {
   gap: 1rem;
 }
 
+.search > label {
+  width: 24px;
+  height: 24px;
+}
+
+.search > input {
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  height: 2rem;
+  padding: 0 .6rem 0 .6rem;
+}
+
 /* profile */
 .profile {
   grid-template-columns: repeat(3, max-content);
