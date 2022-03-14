@@ -160,9 +160,26 @@ header {
   justify-content: center;
 }
 
+.profile-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 /* welcome user */
 .welcome-user {
   grid-template-columns: repeat(2, max-content);
+}
+
+.user-greeting {
+  font-weight: bold;
+}
+
+.greeting {
+  font-size: .8rem;
+}
+
+.username {
+  font-size: 1.4rem;
 }
 
 /* buttons */
