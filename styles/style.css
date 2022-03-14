@@ -111,7 +111,7 @@ header {
 .search,
 .profile,
 .welcome-user,
-.buttons {
+.button-container {
   display: grid;
   padding: 1rem;
 }
@@ -151,7 +151,7 @@ header {
 }
 
 /* buttons */
-header > .buttons {
+header > .button-container {
   grid-template-columns: repeat(3, 1fr);
 }
 
