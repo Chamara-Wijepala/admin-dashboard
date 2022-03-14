@@ -157,4 +157,11 @@ header > .button-container {
 
 .header-button {
   justify-self: center;
+  font-weight: bold;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 50px;
+  height: 2.5rem;
+  width: 6rem;
 }
