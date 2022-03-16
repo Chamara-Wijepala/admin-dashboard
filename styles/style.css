@@ -205,7 +205,7 @@ main {
   width: 100%;
   background-color: var(--secondary-color);
   display: grid;
-  grid-template: repeat(2, 1fr) / repeat(2, 2fr) 300px;
+  grid-template: repeat(2, auto) / repeat(2, 2fr) 300px;
   padding: 2rem 1rem;
   gap: 1rem;
 }
