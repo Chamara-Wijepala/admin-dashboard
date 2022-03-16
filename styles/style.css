@@ -248,3 +248,24 @@ main p {
   padding-bottom: 0;
   border: none;
 }
+
+/* trending */
+.trending-container {
+  display: grid;
+  gap: 1rem;
+}
+
+.trending-user {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, auto);
+}
+
+.trending-user > .avatar {
+  width: 60px;
+  grid-row: span 2;
+}
+
+.trending-user > .handle {
+  color: black;
+  align-self: end;
+}
