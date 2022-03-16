@@ -37,8 +37,6 @@ h1 {
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
   display: flex;
 }
 
@@ -212,6 +210,41 @@ main {
   gap: 1rem;
 }
 
+.main-card {
+  background-color: var(--primary-color);
+  border-radius: 12px;
+  box-shadow: 0px 5px 5px lightgray;
+}
+
+.main-heading {
+  margin-top: 0;
+}
+
+main h3 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+main p {
+  font-size: 1rem;
+  color: #636363;
+}
+
+.main-side-container {
+  padding: 2rem;
+}
+
 .projects {
   grid-area: span 2 / span 2 / auto / auto;
+}
+
+/* announcements */
+.announcement {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.bottom-announcement {
+  padding-bottom: 0;
+  border: none;
 }
