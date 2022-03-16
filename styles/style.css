@@ -200,3 +200,18 @@ header > .button-container {
   height: 2.5rem;
   width: 6rem;
 }
+
+/* main */
+main {
+  height: 100%;
+  width: 100%;
+  background-color: var(--secondary-color);
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 2fr) 300px;
+  padding: 2rem 1rem;
+  gap: 1rem;
+}
+
+.projects {
+  grid-area: span 2 / span 2 / auto / auto;
+}
